@@ -34,6 +34,7 @@ public class Extracao {
                 DiretorioArquivo = scan.next();
                 if(DiretorioArquivo != ""){
                     Coleta(DiretorioArquivo);
+                    throw new IOException("Erro de input/output");
                 }else{
                     System.out.println("Diretório inválido, encerrando aplicação");
                 }
@@ -44,6 +45,7 @@ public class Extracao {
                 System.out.println("Tecle 'S' para continuar");
                 scan.next();
                 Coleta(DiretorioArquivo);
+                
                 break;
             default:
                 System.out.print("Opção inválida, encerrando operação.");
