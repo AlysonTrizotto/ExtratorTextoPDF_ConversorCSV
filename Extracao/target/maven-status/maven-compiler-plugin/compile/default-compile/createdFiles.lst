@@ -1,2 +1,4 @@
+com\mycompany\extracao\ExportaCSV.class
+com\mycompany\extracao\CompactarZip.class
+com\mycompany\extracao\Exporta.class
 com\mycompany\extracao\Extracao.class
-.netbeans_automatic_build
