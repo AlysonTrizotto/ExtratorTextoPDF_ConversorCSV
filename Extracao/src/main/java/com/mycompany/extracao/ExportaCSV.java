@@ -10,14 +10,16 @@ import java.util.Scanner;
 public class ExportaCSV implements Exporta{
     //Sobrescrevendo o metodo declarado com a assinatura Salva CSV
     //Diretório default para salvar o arquivo e criar a pasta
-    String diretorio = "C:\\Users\\PESSOAL\\Documents\\Teste_Intuitive_Care_Alyson_Trizotto";
+    //String diretorio = "C:\\Users\\PESSOAL\\Documents\\Teste_Intuitive_Care_Alyson_Trizotto";
+    String diretorio = "C:\\tmp\\Teste_Intuitive_Care_Alyson_Trizotto";
     @Override
     public void SalvaTabela1CSV(ArrayList<String[]> Tabela1,ArrayList<String[]> Tabela2 ,ArrayList<String[]> Tabela3) {
          try{
                 //Mostrando que estamos escrevendo o arquivo
                 System.out.println("Iniciando criação de CSV tabela 1");
                 //doretório default
-                String CSV_PATH = "C:\\Users\\PESSOAL\\Documents\\Teste_Intuitive_Care_Alyson_Trizotto";
+                //String CSV_PATH = "C:\\Users\\PESSOAL\\Documents\\Teste_Intuitive_Care_Alyson_Trizotto";
+                String CSV_PATH = "C:\\tmp\\Teste_Intuitive_Care_Alyson_Trizotto";
                 //Abrindo o diretório
                 File file = new File(CSV_PATH);
                 //Verificando se a pasta já existe
